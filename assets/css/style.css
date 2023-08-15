@@ -51,19 +51,9 @@ body {
 
 .experiencia .texto-descripcion {
     font-size: 14px;
-    font-weight: 400;
-}
-
-.experiencia .listado-texto-descripcion {
-    padding-top: .5rem;
-    list-style: none;
-}
-
-.experiencia .texto-descripcion-especifico {
-    font-size: 12px;
     font-weight: 300;
-    width: 60ch;
 }
+
 
 .experiencia hr {
     width: 90%;
@@ -82,9 +72,4 @@ body {
 .estudios .texto-entidad {
     font-size: 13px;
     font-weight: 300;
-}
-
-.estudios .texto-entidad-skils {
-    font-size: 10px;
-    /* font-weight: 300; */
 }

@@ -1,0 +1,90 @@
+:root {
+    --color-purpura: #7952B3;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.bg-purpura {
+    background: var(--color-purpura);
+}
+
+.titulo-seccion {
+    border-bottom: 2px solid #7952B3;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.imagen-presentacion .imagen-perfil {
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.contacto p {
+    font-weight: 200;
+    font-size: 11px;
+}
+
+.sobre-mi .detalle-sobre-mi {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.sobre-mi b {
+    font-weight: 700;
+}
+
+.experiencia .texto-puesto {
+    font-weight: 700;
+}
+
+.experiencia .texto-empresa {
+    font-weight: 500;
+}
+
+.experiencia .texto-fecha {
+    font-weight: 200;
+    font-size: 11px;
+}
+
+.experiencia .texto-descripcion {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.experiencia .listado-texto-descripcion {
+    padding-top: .5rem;
+    list-style: none;
+}
+
+.experiencia .texto-descripcion-especifico {
+    font-size: 12px;
+    font-weight: 300;
+    width: 60ch;
+}
+
+.experiencia hr {
+    width: 90%;
+    background: #7952B3;
+}
+
+.estudios .texto-fecha {
+    font-weight: 400;
+    font-size: 9px;
+}
+
+.estudios .texto-especialidad {
+    font-weight: 600;
+}
+
+.estudios .texto-entidad {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.estudios .texto-entidad-skils {
+    font-size: 10px;
+    /* font-weight: 300; */
+}
